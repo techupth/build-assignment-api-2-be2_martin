@@ -4,7 +4,7 @@ import connectionPool from "./utils/db.mjs";
 const app = express();
 const port = 4000;
 
-app.use(express.json());
+app.use(express.json());ç
 
 app.get("/test", (req, res) => {
   return res.json("Server API is working 🚀");
